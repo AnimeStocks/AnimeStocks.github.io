@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nuosu SIL';
+}
+
+/* NAVBAR */
+header {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+#logo {
+    width: 200px;
+    cursor: pointer;
+    padding-top: 5px;
+    margin-left: 20px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+a {
+    text-align: none;
+    color: rgb(0, 255, 255);
+    text-decoration: none;
+}
+
+ul a:hover {
+    transition: .2s;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#menu {
+    display: none;
+    align-items: center;
+}
+
+#close {
+    display: none;
+}
+
+/* BODY */
+#body {
+    background-color: #dce7ec;
+    height: 550px;
+    border-radius: 20px;
+    margin-top: 45px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.bodypic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#pic1 {
+    width: 60%;
+}
+
+#pic2 {
+    width: 30%;
+}
+
+/* MANGA FEATURE */
+.manga {
+    margin: 0 50px;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+.manga > p {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.manga .maincontainer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.maincontainer .container {
+    width: 200px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    opacity: .750;
+    transition: .2s;
+}
+
+.maincontainer .container:hover {
+    opacity: 1;
+    transition: .2s;
+    transform: scale(.99);
+    box-shadow: diffuse;
+}
+
+.container > img {
+    width: 200px;
+    height: 225px;
+}
+
+.description :first-child {
+    margin-top: 10px;
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+
+.description > span {
+    font-size: 18px;
+}
+
+.description > span {
+    font-size: 25px;
+}
+
+/* BANNER SECTION */
+.banner img {
+    margin-top: 75px;
+    width: 100%;
+    cursor: pointer;
+    opacity: .8;
+    transition: .2s;
+}
+
+.banner img:hover {
+    opacity: .990;
+    transform: scale(.990);
+    transition: .2s;
+}
+
+/* NOVEL FEATURE */
+.novel {
+    margin: 0 50px;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 75px;
+}
+
+.novel > p {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.novel .maincontainer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* FOOTER */
+.footer {
+    background-color: rgb(205, 205, 205);
+    height: 125px;
+    margin-top: 50px;
+}
+
+.footer img {
+    width: 225px;
+}
+
+.footer p {
+    font-size: 13px;
+}
+
+.social a img {
+    width: 40px;
+    margin: 0 5px;
+}
+
+.social p {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footerimg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 799px) {
+
+    /* NAVBAR */
+    #logo {
+        width: 180px;
+        padding: 5px;
+        margin-left: 20px;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        top: 0;
+        right: -400px;
+        height: 100vh;
+        width: 300px;
+        position: fixed;
+        background-color: #eaeff1;
+        box-shadow: 0 40px 60px rgb(0, 0, 0, 0.5);
+        padding: 80px 0 0 10px;
+        transition: .4s;
+    }
+
+    #navbar.active {
+        right: 0;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #menu {
+        display: flex;
+        align-items: center;
+    }
+
+    #menu img {
+        width: 25px;
+        margin-right: 25px;
+    }
+
+    #close {
+        display: flex;
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    }
+
+    #close img {
+        width: 35px;
+    }
+
+    /* BODY */
+    #body {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .bodypic {
+        height: 350px;
+    }
+    
+    #pic1 {
+        width: 60%;
+    }
+    
+    #pic2 {
+        width: 30%;
+    }
+
+    /* MANGA */
+    .manga {
+        margin: 0 25px;
+        text-align: left;
+        font-size: 25px;
+        margin-top: 50px;
+    }
+
+    .manga > p {
+        font-size: 30px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    /* BANNER */
+    .banner img {
+        margin-top: 50px;
+        width: 100%;
+        opacity: .8;
+        transition: .2s;
+    }
+
+    /* NOVEL */
+    .novel {
+        margin: 0 25px;
+        text-align: left;
+        font-size: 25px;
+        margin-top: 45px;
+    }
+
+    .novel > p {
+        font-size: 23px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    /* FOOTER */
+    .footer {
+        background-color: rgb(205, 205, 205);
+        height: 125px;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 555px) {
+    /* BODY */
+    #body {
+        display: flex;
+        max-width: 100%;
+        height: 100%;
+        margin: 45px 20px 0 28px;
+    }
+
+    .bodypic {
+        flex-direction: column;
+        height: 395px;
+        width: 100%;
+    }
+
+    #pic1 {
+        width: 100%;
+    }
+    
+    #pic2 {
+        width: 50%;
+    }
+
+    /* MANGA */
+    .manga {
+        margin: 0 25px;
+        text-align: left;
+        font-size: 18px;
+        margin-top: 50px;
+    }
+
+    .manga p {
+        font-size: 23px;
+    }
+
+    /* CONTAINER */
+    .manga .maincontainer {
+        padding: 5px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .maincontainer .container {
+        width: 150px;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid black;
+        opacity: .750;
+        transition: .2s;
+    }
+
+    .container > img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .description :first-child {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .description > span {
+        font-size: 20px;
+    }
+
+    /* BANNER */
+    .banner img {
+        margin-top: 50px;
+        opacity: 1;
+        transition: .2s;
+    }
+
+    #banner {
+        margin-left: -105px;
+    }
+
+    .banner img:hover {
+        opacity: .990;
+        transform: scale(1);
+        transition: .2s;
+    }
+
+    /* FOOTER */
+    .footer {
+        background-color: rgb(205, 205, 205);
+        height: 125px;
+        margin-top: 25px;
+    }
+
+    .footercol img {
+        width: 180px;
+    }
+
+    .social p {
+        font-size: 20.5px;
+    }
+
+    .social a img {
+        width: 32px;
+    }
+}
