@@ -51,10 +51,6 @@ a {
     text-decoration: none;
 }
 
-ul a:hover {
-    transform: scale(3);
-}
-
 #menu {
     display: none;
     align-items: center;
