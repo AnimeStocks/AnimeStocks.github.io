@@ -22,7 +22,7 @@ header {
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 999;
+    z-index: 2;
     margin: 0 0 0 0;
 }
 
@@ -47,15 +47,12 @@ li {
 
 a {
     text-align: none;
-    color: rgb(0, 255, 255);
+    color: black;
     text-decoration: none;
 }
 
 ul a:hover {
-    transition: .2s;
-    background-color: gray;
-    border-radius: 10px;
-    padding: 10px;
+    transform: scale(2);
 }
 
 #menu {
@@ -106,26 +103,18 @@ h1 {
 }
 
 .item img {
-    width: 180px;
-}
-
-.description, .price {
-    color: black;
-    padding: 10px 0;
+    width: 100%;
 }
 
 .price {
     color: black;
+    padding: 10px 0;
     font-size: 22px;
 }
 
 .item:hover {
     opacity: 1;
     transform: scale(0.98);
-}
-
-#compiler a:hover {
-    color:black;
 }
 
 @media (max-width: 1024px) {
