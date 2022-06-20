@@ -74,12 +74,12 @@ a:hover {
     margin: 10% 0 0 10%;
     max-width: 40%;
     padding: 5px;
-    text-align: justify;
-    font-weight: bold;
+    text-align: center;
 }
 
 h1 {
     text-align: center;
+    font-weight: bold;
 }
 
 
