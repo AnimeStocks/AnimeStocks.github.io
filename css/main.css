@@ -217,8 +217,8 @@ ul a:hover {
     height: 100%;
 }
 
-.social a:hover {
-    transform: scale(8);
+#flogo:hover {
+    transform: scale(9);
 }
 
 @media (max-width: 799px) {
