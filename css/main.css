@@ -218,7 +218,7 @@ ul a:hover {
 }
 
 #flogo:hover {
-    transform: scale(9);
+    transform: scale(1.5);
 }
 
 @media (max-width: 799px) {
