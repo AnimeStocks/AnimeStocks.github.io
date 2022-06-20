@@ -52,7 +52,7 @@ a {
     text-decoration: none;
 }
 
-ul:hover {
+ul a:hover {
     position: relative;
     top: -5px;
     color: grey;
