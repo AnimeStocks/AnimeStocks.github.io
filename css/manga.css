@@ -52,6 +52,12 @@ a {
     text-decoration: none;
 }
 
+ul:hover {
+    position: relative;
+    top: -5px;
+    color: grey;
+}
+
 #menu {
     display: none;
     align-items: center;
