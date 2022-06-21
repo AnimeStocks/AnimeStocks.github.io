@@ -102,11 +102,16 @@ h1 {
     padding: 10px 10px 0 10px;
     opacity: 0.8;
     margin-top: 10px;
-    height: 290px;
+    height: 335px;
 }
 
 .item img {
     width: 100%;
+    height: 185px;
+}
+
+.description {
+    margin-top: 10px;
 }
 
 .price {
@@ -203,20 +208,33 @@ h1 {
     }
 
     .item {
-        height: 230px;
+        height: 240px;
     }
 
     .item img {
         width: 100px;
+        height: 100px;
+    }
+
+    .item .description {
+        font-size: 12px;
+    }
+
+    .item .price {
+        font-size: 13px;
+        padding-top: 8px;
+        padding-bottom: 0;
     }
 }
 
 @media (max-width: 400px) {
     .item {
         width: 120px;
+        height: 250px;
     }
 
     .item img {
         width: 120px;
+        height: 120px;
     }
 }
