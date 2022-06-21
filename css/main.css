@@ -45,15 +45,14 @@ li {
 
 a {
     text-align: none;
-    color: rgb(0, 255, 255);
+    color: black;
     text-decoration: none;
 }
 
 ul a:hover {
-    transition: .2s;
-    background-color: gray;
-    border-radius: 10px;
-    padding: 10px;
+    position: relative;
+    top: -5px;
+    color: grey;
 }
 
 #menu {
@@ -227,6 +226,10 @@ ul a:hover {
     height: 100%;
 }
 
+#flogo:hover {
+    transform: scale(1.1);
+}
+    
 @media (max-width: 799px) {
 
     /* NAVBAR */
