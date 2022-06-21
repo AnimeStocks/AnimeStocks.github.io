@@ -226,6 +226,10 @@ ul a:hover {
     height: 100%;
 }
 
+.footercol {
+    text-align: center;
+}
+
 #flogo:hover {
     transform: scale(1.1);
 }
