@@ -21,8 +21,7 @@ header {
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 2;
-    box-shadow: 0 0 7px 0;
+    z-index: 999;
 }
 
 #logo {
@@ -46,15 +45,17 @@ li {
 
 a {
     text-align: none;
-    color: black;
+    color: rgb(0, 255, 255);
     text-decoration: none;
 }
 
 ul a:hover {
-    position: relative;
-    top: -5px;
-    color: grey;
+    transition: .2s;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 10px;
 }
+
 #menu {
     display: none;
     align-items: center;
@@ -120,16 +121,16 @@ ul a:hover {
     border: 1px solid black;
     opacity: .750;
     transition: .2s;
+    background-color: #4d4d4d;
 }
 
 .maincontainer .container:hover {
     opacity: 1;
     transition: .2s;
     transform: scale(.99);
-    box-shadow: diffuse;
 }
 
-.container > img {
+.container > a > img {
     width: 200px;
     height: 225px;
 }
@@ -141,9 +142,14 @@ ul a:hover {
     font-family: 'Manrope';
 }
 
-.description > span {
+.description p, span {
     font-size: 25px;
     font-family: 'Manrope';
+    color: black;
+}
+
+.description span {
+    color: yellow;
 }
 
 /* BANNER SECTION */
@@ -219,10 +225,6 @@ ul a:hover {
     align-items: center;
     width: 100%;
     height: 100%;
-}
-
-#flogo:hover {
-    transform: scale(1.5);
 }
 
 @media (max-width: 799px) {
@@ -343,7 +345,7 @@ ul a:hover {
     }
 }
 
-@media (max-width: 555px) {
+@media (max-width: 554px) {
     /* BODY */
     #body {
         display: flex;
@@ -396,7 +398,7 @@ ul a:hover {
         transition: .2s;
     }
 
-    .container > img {
+    .container > a > img {
         width: 150px;
         height: 150px;
     }
@@ -449,6 +451,7 @@ ul a:hover {
 
     .footercol img {
         width: 180px;
+        text-align: center;
     }
 
     .social p {
@@ -478,7 +481,7 @@ ul a:hover {
         transition: .2s;
     }
 
-    .container > img {
+    .container > a > img {
         width: 140px;
         height: 120px;
     }
@@ -494,6 +497,28 @@ ul a:hover {
         font-size: 19px;
     }
 
+    /* FOOTER */
+    .footer {
+        background-color: rgb(205, 205, 205);
+        height: 125px;
+        margin-top: 25px;
+    }
+
+    .footercol img {
+        width: 150px;
+    }
+
+    .footercol {
+        text-align: center;
+    }
+
+    .social p {
+        font-size: 18px;
+    }
+
+    .social a img {
+        width: 30px;
+    }
 }
 
 @media (max-width: 414px) {
@@ -513,7 +538,7 @@ ul a:hover {
         transition: .2s;
     }
 
-    .container > img {
+    .container > a > img {
         width: 120px;
         height: 120px;
     }
@@ -549,5 +574,26 @@ ul a:hover {
 
     .novel .maincontainer {
         padding: 0;
+    }
+}
+
+@media (max-width: 401px) {
+    /* FOOTER */
+    .footer {
+        background-color: rgb(205, 205, 205);
+        height: 230px;
+        margin-top: 25px;
+    }
+
+    .footercol img {
+        width: 200px;
+    }
+
+    .social p {
+        font-size: 20px;
+    }
+
+    .social a img {
+        width: 30px;
     }
 }
