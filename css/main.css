@@ -197,6 +197,10 @@ ul a:hover {
     font-size: 13px;
 }
 
+.social {
+    text-align: center;
+}
+
 .social a img {
     width: 40px;
     margin: 0 5px;
@@ -206,7 +210,6 @@ ul a:hover {
     font-size: 24px;
     margin-bottom: 15px;
     font-weight: bold;
-    margin-rigth: 100px;
 }
 
 .footerimg {
