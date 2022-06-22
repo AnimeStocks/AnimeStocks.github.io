@@ -101,7 +101,7 @@ h1 {
     border: 1px solid black;
     padding: 10px 10px 0 10px;
     opacity: 0.8;
-    margin-top: 10px;
+    margin-top: 30px;
     height: 335px;
 }
 
@@ -112,6 +112,7 @@ h1 {
 
 .description {
     margin-top: 10px;
+    font-size: 20px;
 }
 
 .price {
@@ -122,7 +123,9 @@ h1 {
 
 .item:hover {
     opacity: 1;
-    transform: scale(0.98);
+    position: relative;
+    top: -14px;
+    transform: scale(1.1);
 }
 
 @media (max-width: 1024px) {
