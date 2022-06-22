@@ -82,7 +82,13 @@ h1 {
     font-weight: bold;
 }
 
-
+@media (max-width: 1111px) {
+    #about {
+        margin: 0 0 0 80px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+}
 
 @media (max-width: 799px) {
 
