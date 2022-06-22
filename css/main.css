@@ -157,12 +157,10 @@ ul a:hover {
     margin-top: 75px;
     width: 100%;
     cursor: pointer;
-    opacity: .8;
     transition: .2s;
 }
 
 .banner img:hover {
-    opacity: .990;
     transform: scale(.990);
     transition: .2s;
 }
