@@ -78,7 +78,7 @@ h1 {
 #container {
     max-width: 80%;
     min-height: 2000px;
-    border: 1px solid black;
+    border: 1px solid white;
     margin: 0 auto;
     overflow-y: hidden;
     background-color: white;
