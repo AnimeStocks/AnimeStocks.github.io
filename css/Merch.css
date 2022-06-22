@@ -90,7 +90,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items:center;
-    padding: 20px 5px;
+    padding: 5px;
 }
 
 .item {
