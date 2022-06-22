@@ -100,7 +100,6 @@ h1 {
     text-align: left;
     border: 1px solid black;
     padding: 10px 10px 0 10px;
-    opacity: 0.8;
     margin-top: 35px;
     height: 290px;
 }
@@ -116,7 +115,6 @@ h1 {
 }
 
 .item:hover {
-    opacity: 1;
     position: relative;
     top: -14px;
     transform: scale(1.1);
