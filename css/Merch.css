@@ -90,7 +90,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items:center;
-    padding: 20px 5px;
+    padding: 24px 9px;
 }
 
 .item {
@@ -112,7 +112,6 @@ h1 {
 
 .description {
     margin-top: 10px;
-    font-size: 20px;
 }
 
 .price {
