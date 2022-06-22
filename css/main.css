@@ -125,9 +125,11 @@ ul a:hover {
 }
 
 .maincontainer .container:hover {
-    opacity: 1;
     transition: .2s;
-    transform: scale(.99);
+    opacity: 1;
+    position: relative;
+    top: -14px;
+    transform: scale(1.1);
 }
 
 .container > a > img {
