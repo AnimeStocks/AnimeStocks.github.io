@@ -120,7 +120,7 @@ ul a:hover {
     padding: 10px;
     border: 1px solid black;
     transition: .2s;
-    background-color: #4d4d4d;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
 
 .maincontainer .container:hover {
@@ -137,8 +137,8 @@ ul a:hover {
 
 .description :first-child {
     margin-top: 10px;
-    margin-bottom: 18px;
-    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
     font-family: 'Manrope';
 }
 
@@ -146,10 +146,6 @@ ul a:hover {
     font-size: 25px;
     font-family: 'Manrope';
     color: black;
-}
-
-.description span {
-    color: yellow;
 }
 
 /* BANNER SECTION */
@@ -325,7 +321,6 @@ ul a:hover {
     .banner img {
         margin-top: 50px;
         width: 100%;
-        opacity: .8;
         transition: .2s;
     }
 
@@ -388,42 +383,26 @@ ul a:hover {
     }
 
     /* CONTAINER */
-    .manga .maincontainer {
-        padding: 5px;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-
     .maincontainer .container {
         width: 150px;
-        margin: 10px;
-        padding: 10px;
-        border: 1px solid black;
-        opacity: .750;
-        transition: .2s;
     }
 
     .container > a > img {
         width: 150px;
-        height: 150px;
+        height: 160px;
     }
 
     .description :first-child {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-weight: bold;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .description > span {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     /* BANNER */
     .banner img {
         margin-top: 50px;
-        opacity: 1;
         transition: .2s;
         width: 100%;
     }
@@ -433,7 +412,6 @@ ul a:hover {
     }
 
     .banner img:hover {
-        opacity: .990;
         transform: scale(1);
         transition: .2s;
     }
@@ -449,12 +427,6 @@ ul a:hover {
     }
 
     /* FOOTER */
-    .footer {
-        background-color: rgb(205, 205, 205);
-        height: 125px;
-        margin-top: 25px;
-    }
-
     .footercol img {
         width: 180px;
         text-align: center;
@@ -471,32 +443,18 @@ ul a:hover {
 
 @media (max-width: 443px) {
     /* CONTAINER */
-    .manga .maincontainer {
-        padding: 5px;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-
     .maincontainer .container {
         max-width: 140px;
         margin: 5px;
-        padding: 10px;
-        border: 1px solid black;
-        opacity: .750;
-        transition: .2s;
     }
 
     .container > a > img {
         width: 140px;
-        height: 120px;
+        height: 150px;
     }
 
     .description :first-child {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-weight: bold;
-        font-size: 17px;
+        font-size: 13px;
     }
 
     .description > span {
@@ -504,18 +462,8 @@ ul a:hover {
     }
 
     /* FOOTER */
-    .footer {
-        background-color: rgb(205, 205, 205);
-        height: 125px;
-        margin-top: 25px;
-    }
-
     .footercol img {
         width: 150px;
-    }
-
-    .footercol {
-        text-align: center;
     }
 
     .social p {
@@ -529,64 +477,32 @@ ul a:hover {
 
 @media (max-width: 414px) {
     /* CONTAINER */
-    .manga .maincontainer {
-        padding: 0;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-
     .maincontainer .container {
         max-width: 120px;
-        padding: 10px;
-        border: 1px solid black;
-        opacity: .750;
-        transition: .2s;
     }
 
     .container > a > img {
         width: 120px;
-        height: 120px;
+        height: 140px;
     }
 
     .description :first-child {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-weight: bold;
-        font-size: 17px;
+        font-size: 12px;
     }
 
     .description > span {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     /* BANNER */
-    .banner img {
-        margin-top: 50px;
-        opacity: 1;
-        transition: .2s;
-        width: 100%;
-    }
-
     #banner {
         margin-left: -90px;
-    }
-
-    /* NOVEL */
-    .novel {
-        text-align: left;
-        font-size: 25px;
-    }
-
-    .novel .maincontainer {
-        padding: 0;
     }
 }
 
 @media (max-width: 401px) {
     /* FOOTER */
     .footer {
-        background-color: rgb(205, 205, 205);
         height: 230px;
         margin-top: 25px;
     }
