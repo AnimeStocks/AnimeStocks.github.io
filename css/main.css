@@ -21,7 +21,8 @@ header {
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 999;
+    z-index: 2;
+    box-shadow: 0 0 7px 0;
 }
 
 #logo {
@@ -231,7 +232,7 @@ ul a:hover {
 }
 
 #flogo:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
     
 @media (max-width: 799px) {
