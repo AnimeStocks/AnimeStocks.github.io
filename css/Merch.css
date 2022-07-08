@@ -7,9 +7,8 @@
 
 body {
     font-family: 'Manrope';
-    background-image: url(/pic/panel4.jpg);
+    background-image: url(/pic/panel3.jpg);
     background-attachment: fixed;
-    background-repeat: no-repeat;
 }
 
 /* top menu bar */
@@ -111,12 +110,12 @@ h1 {
 }
 
 .item img {
-    width: 100%;
+    width: 180px;
     height: 185px;
 }
 
 .description {
-    margin-top: 10px;
+    height: 25%;
 }
 
 .price {
@@ -206,6 +205,15 @@ h1 {
         margin-left: 10px;
         margin-right: 10px;
     }
+
+    .item {
+        height: 350px;
+    }
+
+    .item img {
+        width: 180px;
+        height: 210px;
+    }
 }
 
 @media (max-width: 439px) {
@@ -214,7 +222,7 @@ h1 {
     }
 
     .item {
-        height: 235px;
+        height: 240px;
     }
 
     .item img {
@@ -228,15 +236,23 @@ h1 {
 
     .item .price {
         font-size: 13px;
-        padding-top: 8px;
-        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 429px) {
+    .item {
+        height: 235px;
+    }
+
+    .item .price {
+        font-size: 15px;
     }
 }
 
 @media (max-width: 400px) {
     .item {
         width: 120px;
-        height: 240px;
+        height: 250px;
     }
 
     .item img {

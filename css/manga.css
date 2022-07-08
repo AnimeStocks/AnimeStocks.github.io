@@ -115,7 +115,7 @@ h1 {
 }
 
 .description {
-    margin-top: 10px;
+    height: 25%;
 }
 
 .price {
@@ -199,12 +199,6 @@ h1 {
     #close img {
         width: 35px;
     }
-
-    #container {
-        max-width: 100%;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
 }
 
 @media (max-width: 439px) {
@@ -226,7 +220,7 @@ h1 {
     }
 
     .item .price {
-        font-size: 13px;
+        font-size: 15px;
         padding-top: 8px;
         padding-bottom: 0;
     }
