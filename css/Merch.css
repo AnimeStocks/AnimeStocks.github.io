@@ -67,6 +67,29 @@ ul a:hover {
     display: none;
 }
 
+/* CATEGORIES */
+#categories ul {
+    margin-bottom: 20px;
+    margin-left: 8.5%;
+}
+
+#categories ul li {
+    cursor: pointer;
+    letter-spacing: 1px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#categories ul li.active {
+    color: #faed27;
+    font-weight: bold;
+}
+
+#categories ul li:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
 /*main area*/
 h3 {
     text-align: center;
@@ -109,6 +132,23 @@ h1 {
     height: 335px;
 }
 
+.item.show {
+    animation: fadeIn .5s ease;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.item.hide {
+    display: none;
+}
+
 .item img {
     width: 180px;
     height: 185px;
@@ -133,6 +173,11 @@ h1 {
 @media (max-width: 1024px) {
     #container {
         max-width: 98%;
+    }
+
+    #categories ul {
+        padding-left: 3%;
+        margin-left: 0;
     }
 }
 
