@@ -32,3 +32,26 @@ function reveal() {
         }
     }
 }
+
+const filterContainer = document.querySelector('#categories'),
+productItems = document.querySelectorAll('.item')
+
+filterContainer.addEventListener("click", (event) => {
+    if(event.target.classList.contains('list')){
+        // deactive existing active list
+        filterContainer.querySelector('.active').classList.remove('active');
+        // activate new list
+        event.target.classList.add('active');
+        const filterValue = event.target.getAttribute('data-filter');
+        productItems.forEach((item) => {
+            if(item.classList.contains(filterValue) || filterValue === 'all') {
+                item.classList.remove('hide');
+                item.classList.add('show');
+            }
+            else {
+                item.classList.remove('show');
+                item.classList.add('hide');
+            }
+        });
+    }
+});
