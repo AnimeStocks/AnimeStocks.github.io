@@ -160,7 +160,7 @@ h1 {
 
 .price {
     color: black;
-    padding: 10px 0;
+    padding-top: 10px;
     font-size: 22px;
 }
 
@@ -285,8 +285,8 @@ h1 {
 }
 
 @media (max-width: 429px) {
-    .item {
-        height: 235px;
+    .description {
+        height: 40%;
     }
 
     .item .price {
@@ -298,6 +298,10 @@ h1 {
     .item {
         width: 120px;
         height: 250px;
+    }
+    
+    .description {
+        height: 33%;
     }
 
     .item img {
