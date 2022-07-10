@@ -51,13 +51,14 @@ li {
 
 a {
     text-align: none;
-    color: blue;
+    color: black;
     text-decoration: none;
 }
 
-a:hover {
+li a:hover {
     position: relative;
     top: 5px;
+    color: grey;
 }
 
 #menu {
@@ -79,6 +80,10 @@ a:hover {
 h1 {
     text-align: center;
     font-weight: bold;
+}
+
+#about a {
+    color: blue;
 }
 
 @media (max-width: 1111px) {
