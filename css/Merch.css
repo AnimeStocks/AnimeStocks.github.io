@@ -42,7 +42,7 @@ header {
 
 li {
     display: inline-block;
-    padding: 0 20px;
+    margin: 0 20px;
     font-size: 20px;
 }
 
@@ -68,16 +68,31 @@ ul a:hover {
 }
 
 /* CATEGORIES */
-#categories ul {
+#categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 20px;
-    margin-left: 8.5%;
+    margin-left: 11%;
 }
 
 #categories ul li {
+    display: inline-block;
     cursor: pointer;
     letter-spacing: 1px;
-    padding: 5px;
-    margin: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#categories ul {
+    left: 100px;
+    padding: 0;
+}
+
+.incategories {
+    display: flex;
+    margin-right: 11%;
 }
 
 #categories ul li.active {
@@ -136,13 +151,6 @@ h1 {
     animation: fadeIn .5s ease;
 }
 
-input {
-    position: absolute;
-    right: 10vw;
-    width: 15vw;
-    height: 2.2vw;
-}
-
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -178,6 +186,14 @@ input {
 }
 
 @media (max-width: 1024px) {
+    #categories {
+        margin-left: 1%;
+    }
+
+    .incategories {
+        margin-right: 2.5%;
+    }
+
     #container {
         max-width: 95%;
     }
@@ -186,7 +202,7 @@ input {
         padding-left: 3%;
         margin-left: 0;
     }
- 
+
     input {
         right: 2.4vw;
         width: 20vw;
@@ -268,6 +284,16 @@ input {
         width: 180px;
         height: 210px;
     }
+
+    #categories ul {
+        padding: 0;
+    }
+
+    input {
+        margin-left: 2%;
+        width: 200px;
+        height: 3vw;
+    }
 }
 
 @media (max-width: 439px) {
@@ -303,10 +329,11 @@ input {
     }
     
     input {
-        top: 265px;
+        margin-top: 20px;
         right: 3vw;
-        width: 35vw;
+        width: 200px;
         height: 6vw;
+        margin-left: 5px;
     }
 }
 
