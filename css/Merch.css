@@ -96,7 +96,10 @@ ul a:hover {
 }
 
 input {
-    width: 20vw;
+    position: absolute;
+    right: 10vw;
+    width: 15vw;
+    height: 2.2vw;
 }
 
 #categories ul li.active {
