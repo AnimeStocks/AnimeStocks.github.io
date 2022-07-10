@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="/pic/favicon-32x32.png" sizes="32x32"/>
-    <link rel="stylesheet" href="/css/manga.css">
+    <link rel="stylesheet" href="manga.css">
     <title>Manga Novel</title>
 </head>
 <body>
@@ -31,6 +31,19 @@
     <main id="main_doc">
         <h3>Updated: 09/07/2022</h3>
         <h1>Manga</h1>
+        
+        <input type="text" name="" id="search-item" placeholder="Search products" onkeyup="search()">
+
+        <div id="categories">
+            <ul>
+                <li class="list active" data-filter="all">All</li>
+                <li class="list" data-filter="drama">Drama</li>
+                <li class="list" data-filter="romance">Romance</li>
+                <li class="list" data-filter="fantasy">Fantasy</li>
+                <li class="list" data-filter="other">Others</li>
+            </ul>
+        </div>
+
         <div id="container">
             <div id="compiler">
                 <div class="item">
@@ -355,6 +368,6 @@
             </div>
         </div>
     </main>
-    <script src="/js/main.js"></script>
+    <script src="js.js"></script>
 </body>
 </html>
