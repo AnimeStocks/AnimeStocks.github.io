@@ -50,7 +50,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+li a:hover {
     position: relative;
     top: 5px;
     color: grey;
