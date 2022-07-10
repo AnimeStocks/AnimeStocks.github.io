@@ -136,6 +136,13 @@ h1 {
     animation: fadeIn .5s ease;
 }
 
+input {
+    position: absolute;
+    right: 10vw;
+    width: 15vw;
+    height: 2.2vw;
+}
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -172,20 +179,22 @@ h1 {
 
 @media (max-width: 1024px) {
     #container {
-        max-width: 98%;
+        max-width: 95%;
     }
 
     #categories ul {
         padding-left: 3%;
         margin-left: 0;
     }
+ 
+    input {
+        right: 2.4vw;
+        width: 20vw;
+        height: 2.5vw;
+    }
 }
 
 @media (max-width: 920px) {
-    #container {
-        max-width: 95%;
-    }
-
     .item {
         width: 200px;
     }
@@ -291,6 +300,13 @@ h1 {
 
     .item .price {
         font-size: 15px;
+    }
+    
+    input {
+        top: 265px;
+        right: 3vw;
+        width: 35vw;
+        height: 6vw;
     }
 }
 
