@@ -82,8 +82,8 @@ h1 {
     font-weight: bold;
 }
 
-#about a:hover {
-    color: black;
+#about > p a {
+    color: red;
 }
 
 @media (max-width: 1111px) {
