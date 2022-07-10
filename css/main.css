@@ -232,6 +232,10 @@ li a:hover {
     color: blue;
 }
 
+.footer p a:hover {
+    text-decoration: underline;
+}
+
 #flogo:hover {
     transform: scale(1.2);
 }
