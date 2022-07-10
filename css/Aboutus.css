@@ -82,6 +82,10 @@ h1 {
     font-weight: bold;
 }
 
+#about a:hover {
+    color: black;
+}
+
 @media (max-width: 1111px) {
     #about {
         margin: 0 0 0 80px;
