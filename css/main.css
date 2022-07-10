@@ -50,7 +50,7 @@ a {
     text-decoration: none;
 }
 
-ul a:hover {
+a:hover {
     position: relative;
     top: -5px;
     color: grey;
@@ -218,17 +218,24 @@ ul a:hover {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 100%;
 }
 
 .footercol {
     text-align: center;
 }
 
+.footercol p:last-child {
+    margin-top: 10px;
+}
+
+.footer p a {
+    color: red;
+}
+
 #flogo:hover {
     transform: scale(1.2);
 }
-    
+
 @media (max-width: 799px) {
 
     /* NAVBAR */
