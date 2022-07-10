@@ -18,12 +18,17 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    position: fixed;
+    transition: .5s;
     top: 0;
     left: 0;
     z-index: 2;
     margin: 0 0 0 0;
     box-shadow: 0 0 7px 0;
+}
+
+header.hide {
+    transform: translateY(-100%);
 }
 
 #logo {
