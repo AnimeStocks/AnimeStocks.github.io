@@ -51,14 +51,13 @@ li {
 
 a {
     text-align: none;
-    color: black;
+    color: blue;
     text-decoration: none;
 }
 
 a:hover {
     position: relative;
     top: 5px;
-    color: grey;
 }
 
 #menu {
