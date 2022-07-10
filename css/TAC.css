@@ -87,10 +87,6 @@ a:hover {
     text-align: justify;
 }
 
-#tac > p a {
-    color: red;
-}
-
 @media (max-width: 799px) {
 
     /* NAVBAR */
