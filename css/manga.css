@@ -42,7 +42,7 @@ header {
 
 li {
     display: inline-block;
-    padding: 0 20px;
+    margin: 0 20px;
     font-size: 20px;
 }
 
@@ -68,19 +68,26 @@ ul a:hover {
 }
 
 /* CATEGORIES */
-#categories ul {
-    margin-bottom: 20px;
-    margin-left: 8.5%;
-}
-
-.incategories {
+#categories {
     display: flex;
-    margin-right: 11%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-left: 11%;
 }
 
-input {
-    width: 15vw;
-    padding: 5px;
+#categories ul li {
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#categories ul {
+    left: 100px;
+    padding: 0;
 }
 
 .incategories {
@@ -127,8 +134,7 @@ h1 {
 
 #compiler {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: space-evenly;
     align-items:center;
     padding: 5px;
@@ -184,6 +190,14 @@ h1 {
 }
 
 @media (max-width: 1024px) {
+    #categories {
+        margin-left: 1%;
+    }
+
+    .incategories {
+        margin-right: 2.5%;
+    }
+
     #container {
         max-width: 95%;
     }
@@ -200,6 +214,11 @@ h1 {
     }
 }
 
+@media (max-width: 920px) {
+    .item {
+        width: 200px;
+    }
+}
 
 @media (max-width: 799px) {
 
@@ -269,6 +288,16 @@ h1 {
         width: 180px;
         height: 210px;
     }
+
+    #categories ul {
+        padding: 0;
+    }
+
+    input {
+        margin-left: 2%;
+        width: 200px;
+        height: 3vw;
+    }
 }
 
 @media (max-width: 439px) {
@@ -302,12 +331,13 @@ h1 {
     .item .price {
         font-size: 15px;
     }
-
+    
     input {
-        top: 265px;
+        margin-top: 20px;
         right: 3vw;
-        width: 35vw;
-        height: 6vw;
+        width: 200px;
+        height: 5vw;
+        margin-left: 5px;
     }
 }
 
