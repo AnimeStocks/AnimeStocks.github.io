@@ -95,6 +95,10 @@ ul a:hover {
     margin-right: 11%;
 }
 
+input {
+    width: 20vw;
+}
+
 #categories ul li.active {
     color: #faed27;
     font-weight: bold;
