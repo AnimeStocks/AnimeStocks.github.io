@@ -55,3 +55,25 @@ filterContainer.addEventListener("click", (event) => {
         });
     }
 });
+
+const search = () => {
+    const searchbox = document.getElementById("search-item").value.toUpperCase();
+    const storeitems = document.getElementById("compiler");
+    const product = document.querySelectorAll(".item");
+    const pname = storeitems.getElementsByClassName("description");
+
+    for (var i=0; i<pname.length;i++) {
+        let match = product[i].getElementsByClassName('description')[0];
+
+        if (match) {
+            let textvalue = match.textContent || match.innerHTML
+
+            if (textvalue.toUpperCase().indexOf(searchbox)>-1) {
+                product[i].style.display = "";
+            }
+            else {
+                product[i].style.display = "none";
+            }
+        }
+    }
+}
