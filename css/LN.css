@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Manrope';
-    background-image: url(/pic/panel3.jpg);
+    background-image: url(pic/panel3.jpg);
     background-attachment: fixed;
 }
 
@@ -67,6 +67,29 @@ ul a:hover {
     display: none;
 }
 
+/* CATEGORIES */
+#categories ul {
+    margin-bottom: 20px;
+    margin-left: 8.5%;
+}
+
+#categories ul li {
+    cursor: pointer;
+    letter-spacing: 1px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#categories ul li.active {
+    color: #faed27;
+    font-weight: bold;
+}
+
+#categories ul li:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
 /*main area*/
 h3 {
     text-align: center;
@@ -109,6 +132,30 @@ h1 {
     height: 335px;
 }
 
+.item.show {
+    animation: fadeIn .5s ease;
+}
+
+input {
+    position: absolute;
+    right: 10vw;
+    width: 15vw;
+    height: 2.2vw;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.item.hide {
+    display: none;
+}
+
 .item img {
     width: 180px;
     height: 185px;
@@ -120,7 +167,7 @@ h1 {
 
 .price {
     color: black;
-    padding: 10px 0;
+    padding-top: 10px;
     font-size: 22px;
 }
 
@@ -132,19 +179,21 @@ h1 {
 
 @media (max-width: 1024px) {
     #container {
-        max-width: 98%;
-    }
-}
-
-@media (max-width: 920px) {
-    #container {
         max-width: 95%;
     }
 
-    .item {
-        width: 200px;
+    #categories ul {
+        padding-left: 3%;
+        margin-left: 0;
+    }
+
+    input {
+        right: 2.4vw;
+        width: 20vw;
+        height: 2.5vw;
     }
 }
+
 
 @media (max-width: 799px) {
 
@@ -240,12 +289,19 @@ h1 {
 }
 
 @media (max-width: 429px) {
-    .item {
-        height: 235px;
+    .description {
+        height: 40%;
     }
 
     .item .price {
         font-size: 15px;
+    }
+
+    input {
+        top: 265px;
+        right: 3vw;
+        width: 35vw;
+        height: 6vw;
     }
 }
 
@@ -253,6 +309,10 @@ h1 {
     .item {
         width: 120px;
         height: 250px;
+    }
+    
+    .description {
+        height: 33%;
     }
 
     .item img {
