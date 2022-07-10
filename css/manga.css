@@ -73,11 +73,24 @@ ul a:hover {
     margin-left: 8.5%;
 }
 
-#categories ul li {
-    cursor: pointer;
-    letter-spacing: 1px;
+.incategories {
+    display: flex;
+    margin-right: 11%;
+}
+
+input {
+    width: 15vw;
     padding: 5px;
-    margin: 5px;
+}
+
+.incategories {
+    display: flex;
+    margin-right: 11%;
+}
+
+input {
+    width: 15vw;
+    padding: 5px;
 }
 
 #categories ul li.active {
@@ -134,13 +147,6 @@ h1 {
 
 .item.show {
     animation: fadeIn .5s ease;
-}
-
-input {
-    position: absolute;
-    right: 10vw;
-    width: 15vw;
-    height: 2.2vw;
 }
 
 @keyframes fadeIn {
