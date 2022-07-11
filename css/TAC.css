@@ -56,7 +56,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+li a:hover {
     position: relative;
     top: 5px;
     color: grey;
@@ -85,6 +85,14 @@ a:hover {
     top: 160px;
     padding: 5vw;
     text-align: justify;
+}
+
+#terms a {
+    color: blue;
+}
+
+#terms a:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 799px) {
