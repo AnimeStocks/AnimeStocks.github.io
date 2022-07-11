@@ -182,3 +182,19 @@ h1 {
         margin-bottom: 50px;
     }
 }
+
+@media (max-width: 380px) {
+    #about {
+        margin: 0 0 0 40px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 321px) {
+    #about {
+        margin: 0 0 0 35px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
