@@ -1,0 +1,65 @@
+/* SEARCHBAR IN NAVBAR */
+.navbar--searchbar > input {
+    font-weight: bold;
+    font-size: 1.2vw;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    background-color: #F2F2F2;
+    padding: .3vw;
+    width: 25vw;
+    height: 2vw;
+}
+
+/* SEARCH BAR IN PRODUCTS */
+.product--searchbar > input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2vw;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    background-color: #F2F2F2;
+    padding: .3vw;
+    width: 25vw;
+    height: 2vw;
+}
+
+.product--searchbar > input {
+    display: none;
+}
+
+@media (max-width: 799px) {
+    /* SEARCHBAR IN NAVBAR */
+    .navbar--searchbar {
+        display: none;
+    }
+
+    /* SEARCH BAR IN PRODUCTS */
+    .product--searchbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product--searchbar > input{
+        font-size: 1.5vw;
+        padding: 1vw 2vw;
+        width: 50vw;
+        height: 3vw;
+        display: inline;
+    }
+}
+
+@media (max-width: 426px) {
+    /* SEARCHBAR IN PRODUCTS */
+    .product--searchbar > input {
+        font-size: 2vw;
+        padding: 1vw 2vw;
+        width: 38vw;
+        height: 5vw;
+        margin: 0;
+    }
+}

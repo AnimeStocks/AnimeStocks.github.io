@@ -1,0 +1,33 @@
+.novel {
+    margin: 100px 50px 100px 50px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.novel .maincontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 799px) {
+    .novel {
+        margin: 100px 25px;
+        text-align: left;
+        font-size: 25px;
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 430px) {
+    .novel .maincontainer {
+        height: 200vw;
+        padding: 0 2vw 0 2vw;
+    }
+
+    .novel {
+        text-align: left;
+        font-size: 25px;
+    }
+}

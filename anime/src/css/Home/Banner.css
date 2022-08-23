@@ -1,0 +1,33 @@
+.banner img {
+    padding: 10vw 0 10vw 0;
+    width: 100%;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.banner img:hover {
+    transform: scale(.990);
+    transition: .2s;
+}
+
+@media (max-width: 799px) {
+    .banner img {
+        padding: 10vw 0 10vw 0;
+    }
+}
+
+@media (max-width: 430px) {
+    .banner img {
+        padding: 10vw 0 10vw 0;
+    }
+
+    #banner {
+        margin-left: -105px;
+    }
+
+    .banner img:hover {
+        transform: scale(1);
+        transition: .2s;
+    }
+}
+
