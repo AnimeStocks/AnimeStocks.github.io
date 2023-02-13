@@ -533,29 +533,8 @@ const merchList = [
     },
     {
         "class": " ",
-        "link": " ",
+        "link": "https://invol.co/clgghiz",
         "image": "/merch/product77.png",
-        "description": "",
-        "price": "₱"
-    },
-    {
-        "class": " ",
-        "link": " ",
-        "image": "/merch/product78.png",
-        "description": "",
-        "price": "₱"
-    },
-    {
-        "class": " ",
-        "link": " ",
-        "image": "/merch/product79.png",
-        "description": "",
-        "price": "₱"
-    },
-    {
-        "class": " ",
-        "link": " ",
-        "image": "/merch/product80.png",
         "description": "",
         "price": "₱"
     },
