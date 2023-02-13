@@ -350,35 +350,217 @@ const merchList = [
         "price": "₱349.00"
     },
     {
-        "class": "figure",
-        "link": "https://invle.co/clco4mi",
-        "image": " ",
-        "description": "",
-        "price": ""
+        "class": "shoes",
+        "link": "https://invle.co/cld1ztp",
+        "image": "/merch/product51.png",
+        "description": "Fashion men's and women's AF1 sports shoes running shoes",
+        "price": "₱650"
+    },
+    {
+        "class": "shoes",
+        "link": "https://invle.co/cld216n",
+        "image": "/merch/product52.png",
+        "description": "Men Sepatu Sneakers Shoes Casual Anime One Piece Luffy",
+        "price": "₱980"
+    },
+    {
+        "class": "shoes",
+        "link": "https://invle.co/cld2198",
+        "image": "/merch/product53.png",
+        "description": "Sneaker Shoes Anime Naruto High Tops Durable Comfortable",
+        "price": "₱920"
+    },
+    {
+        "class": "other",
+        "link": "https://invle.co/cld21e0",
+        "image": "/merch/product54.png",
+        "description": "NARUTO Stand On Top Japanese Flip Flops Rubber Slippers",
+        "price": "₱72"
+    },
+    {
+        "class": "shoes",
+        "link": "https://invle.co/cld21b7",
+        "image": "/merch/product55.png",
+        "description": "Fashion Anime Men Sneaker Shoes ONE PIECE",
+        "price": "₱960"
+    },
+    {
+        "class": "shoes",
+        "link": "https://invle.co/cld21kt",
+        "image": "/merch/product56.png",
+        "description": "Demon Slayer Anime High-top Canvas Shoes Women",
+        "price": "₱899"
+    },
+    {
+        "class": "shoes",
+        "link": "https://invle.co/cld21oo",
+        "image": "/merch/product57.png",
+        "description": "Sneaker Shoes Soft Quality Anime ONE PIECE Luffy",
+        "price": "₱950"
+    },
+    {
+        "class": "shoes",
+        "link": "https://invle.co/cld21pq",
+        "image": "/merch/product58.png",
+        "description": "Naruto Unique Pattern Men Casual Sneaker Shoes Anime Lightweight",
+        "price": "₱950"
+    },
+    {
+        "class": "shoes",
+        "link": "https://invle.co/cld21rc",
+        "image": "/merch/product59.png",
+        "description": "Men Casual Sneaker Shoes Anime Demon Slayer Comfortable",
+        "price": "₱899"
+    },
+    {
+        "class": "short",
+        "link": "https://invle.co/cld21wc",
+        "image": "/merch/product60.png",
+        "description": "Shorts Men Drawstring Anime Graffiti Shorts",
+        "price": "₱79"
+    },
+    {
+        "class": "short",
+        "link": "https://invle.co/cld221k",
+        "image": "/merch/product61.png",
+        "description": "One Piece Design Anime Ball Shorts",
+        "price": "₱120"
+    },
+    {
+        "class": "short",
+        "link": "https://invle.co/cld222z",
+        "image": "/merch/product62.png",
+        "description": "PLAIN GON TASLAN SHORTS - Unisex Good Quality - 2 SIDE POCKETS",
+        "price": "₱75"
+    },
+    {
+        "class": "shoes",
+        "link": "https://invle.co/cld228u",
+        "image": "/merch/product63.png",
+        "description": "One Piece anime joint shoes men",
+        "price": "₱240 - ₱562"
+    },
+    {
+        "class": "shoes",
+        "link": "https://invle.co/cld22a1",
+        "image": "/merch/product64.png",
+        "description": "Sneaker Shoes Demon Slayer Tanjiro Low Cut",
+        "price": "₱950"
+    },
+    {
+        "class": "short",
+        "link": "https://invle.co/cld22dm",
+        "image": "/merch/product65.png",
+        "description": "Hunter X Hunter Anime Ball shorts",
+        "price": "₱120"
+    },
+    {
+        "class": "shoes",
+        "link": "https://invle.co/cld22o1",
+        "image": "/merch/product66.png",
+        "description": "Black One Piece Anime Men Women High-Top Canvas Shoes",
+        "price": "₱699"
     },
     {
         "class": "figure",
-        "link": "http://127.0.0.1:5500/Merch.html",
-        "image": " ",
-        "description": "",
-        "price": ""
+        "link": "https://invle.co/cld2i0l",
+        "image": "/merch/product67.png",
+        "description": "16cm One Piece Hawk-eye Mihawk action figure",
+        "price": "₱259"
     },
     {
         "class": "figure",
-        "link": "https://invle.co/clco4p0",
-        "image": " ",
-        "description": "",
-        "price": ""
+        "link": "https://invle.co/cld2ig9",
+        "image": "/merch/product68.png",
+        "description": "One Piece Luffy, Law, Zoro, Sanji, Ace, Nami, Sabo Grandista",
+        "price": "₱179 - ₱259"
     },
     {
         "class": "figure",
-        "link": "http://127.0.0.1:5500/Merch.html",
-        "image": " ",
-        "description": "",
-        "price": ""
+        "link": "https://invle.co/cld2ijz",
+        "image": "/merch/product69.png",
+        "description": "Genshin impact figure Shogun Yunjin Shenhe The lady La Signora Itto Acrylic stand",
+        "price": "₱160"
     },
     {
         "class": "figure",
+        "link": "https://invle.co/cld2j05",
+        "image": "/merch/product70.png",
+        "description": "36cm One Piece Roronoa Zoro action figure with box",
+        "price": "₱245 - ₱1,384"
+    },
+    {
+        "class": "figure",
+        "link": "https://invle.co/cld2j4f",
+        "image": "/merch/product71.png",
+        "description": "Demon Slayer GK Large Blood Domen",
+        "price": "₱1,259"
+    },
+    {
+        "class": "figure",
+        "link": "https://invle.co/cld2jat",
+        "image": "/merch/product72.png",
+        "description": "Demon Slayer Nezuko Kamado Tanjirou",
+        "price": "₱115"
+    },
+    {
+        "class": "figure",
+        "link": "https://invle.co/cld2jcr",
+        "image": "/merch/product73.png",
+        "description": "Attack on Titan Levi Mikasa Eren Ackerman PVC Figure Anime Action Figure",
+        "price": "₱739"
+    },
+    {
+        "class": "figure",
+        "link": "https://invle.co/cld2jdx",
+        "image": "/merch/product74.png",
+        "description": "Demon Slayer Sword CosPlay Sword 104cm Tanjiro Zenitsu Sword",
+        "price": "₱209 - ₱395"
+    },
+    {
+        "class": "figure",
+        "link": "https://invle.co/cld2jfd",
+        "image": "/merch/product75.png",
+        "description": "Demon Slayer Figure Action Figure Tanjiro",
+        "price": "₱149"
+    },
+    {
+        "class": "figure",
+        "link": "https://invle.co/cld2jgj",
+        "image": "/merch/product76.png",
+        "description": "One Piece Roronoa Zoro Figur Three-knife Fighting",
+        "price": "₱256 - ₱360"
+    },
+    {
+        "class": " ",
+        "link": " ",
+        "image": "/merch/product77.png",
+        "description": "",
+        "price": "₱"
+    },
+    {
+        "class": " ",
+        "link": " ",
+        "image": "/merch/product78.png",
+        "description": "",
+        "price": "₱"
+    },
+    {
+        "class": " ",
+        "link": " ",
+        "image": "/merch/product79.png",
+        "description": "",
+        "price": "₱"
+    },
+    {
+        "class": " ",
+        "link": " ",
+        "image": "/merch/product80.png",
+        "description": "",
+        "price": "₱"
+    },
+    {
+        "class": " ",
         "link": "https://invol.co/clgghiz",
         "image": " ",
         "description": "",
